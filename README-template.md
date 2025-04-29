@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- **Solution URL:** [Add solution URL here]()
-- **Live Site URL:** [Add live site URL here]()
+- **Solution URL:** [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-blog-preview-card-using-flexbox-semantic-html-and-inline-st-o5AtUJ93nL)
+- **Live Site URL:** [Add live site URL here](https://blog-preview-card-jet-nine.vercel.app/)
 
 ---
 
