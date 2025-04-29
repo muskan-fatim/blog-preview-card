@@ -73,8 +73,7 @@ In future projects, I want to:
 
 ## ✍️ Author
 
-- Frontend Mentor – [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter – [@yourusername](https://twitter.com/yourusername)
+- Frontend Mentor – [@yourusername](https://www.frontendmentor.io/profile/muskan-fatim)
 
 ---
 
