@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontend Mentor | Blog preview card</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+  <style>
+    body {
+      font-family: Figtree, sans-serif;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color:  hsl(47, 88%, 63%);
+    }
+
+    .card {
+      background-color: hsl(0, 0%, 100%);
+      width: 90%;
+      max-width: 400px;
+      padding: 24px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      border: 1px solid black;
+    }
+
+    .card img.main-image {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
+
+    .tag {
+      background-color: hsl(47, 88%, 63%);
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 8px;
+      font-weight: bold;
+      margin-top: 16px;
+    }
+
+    .card h1 {
+      font-size: 1.4rem;
+      margin: 16px 0 12px;
+    }
+
+    .card p {
+      color: hsl(0, 0%, 42%);
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .author {
+      display: flex;
+      align-items: center;
+      margin-top: 24px;
+    }
+
+    .author img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    .author-name {
+      margin-left: 12px;
+      font-weight: bold;
+      color: black;
+    }
+
+    @media (max-width: 400px) {
+      .card {
+        padding: 16px;
+      }
+
+      .card h1 {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="./assets/images/illustration-article.svg" alt="Article illustration" class="main-image" />
+
+    <span class="tag">Learning</span>
+    <p>Published 21 Dec 2023</p>
+
+    <h1>HTML & CSS Foundations</h1>
+    <p>HTML and CSS are the building blocks of web development. They provide the structure and style for web pages, making them visually appealing and user-friendly.</p>
+
+    <div class="author">
+      <img src="./assets/images/image-avatar.webp" alt="Greg Hooper Avatar" />
+      <span class="author-name">Greg Hooper</span>
+    </div>
+  </div>
+</body>
+</html>
